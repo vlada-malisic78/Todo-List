@@ -1,0 +1,44 @@
+.container {
+  width: 80%;
+  margin: 20px auto;
+  background-color: bisque;
+  padding: 25px;
+}
+.new-task {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  background-color: tan;
+  padding: 20px 10px;
+}
+.tasks {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.btn {
+    padding: 0.9rem;
+    margin: 10px 8px;
+    text-transform: uppercase;
+}
+ion-icon {
+  font-size: 32px;
+  color: orangered;
+  margin: 10px 8px;
+  cursor: pointer;
+}
+ion-icon:hover {
+  color: black; 
+  transform: scale(1.3);
+}
+.btn {
+  color: green;
+}
+.error {
+  color: red;
+  font-size: 0.9rem;
+  font-style: italic;
+  margin: 10px 5px;
+}

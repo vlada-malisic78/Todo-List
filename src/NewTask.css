@@ -1,0 +1,31 @@
+.new-task {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+    background-color: rgb(240, 209, 169);
+}
+form {
+    width: 100%;
+    box-sizing: border-box;
+}
+.task-field {
+    width: 80%;
+    padding:15px;
+    border: none;
+    box-sizing: border-box;
+}
+
+.btn-save {
+    color: seagreen;
+    border: 2px solid seagreen;
+    background: none;
+}
+.btn-save:hover {
+    color: white;
+    border: 2px solid seagreen;
+    background-color: seagreen;
+    transform: scale(1.085);
+}
+

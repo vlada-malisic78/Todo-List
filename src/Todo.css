@@ -1,0 +1,83 @@
+.task {
+    width: 100%;
+    list-style-type: none;
+    border: 1.5px solid rgb(247, 192, 170);
+    margin: 7px 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+
+}
+.btn-delete {
+    color: orangered;
+    border: 1.2px solid orangered;
+}
+.btn-delete:hover {
+    color: white;
+    border: 1.2px solid orangered;
+    background-color: orangered;
+    transform: scale(1.085);
+}
+li:hover {
+    background-color: rgb(240, 206, 164);
+}
+li span {
+    width: 70%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+.buttons {
+    width: 30%;
+    text-align: right
+}
+.completed {
+    color: grey;
+    text-decoration: line-through;
+    font-size: 1.3rem;
+  }
+
+.new-task {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+
+form {
+    width: 100%;
+    box-sizing: border-box;
+}
+.edit-task-field {
+    width: 80%;
+    padding: 15px;
+    border: 1.5px solid goldenrod;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+
+.btn-edit-save {
+    color: goldenrod;
+    border: 1.5px solid goldenrod;
+    background:none;
+}
+.btn-edit-save:hover {
+    color: white;
+    border: 1.5px solid goldenrod;
+    background:goldenrod;
+    transform: scale(1.085);
+}
+.edit-task {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.message {
+    font-weight: 700;
+    color: green;
+}
